@@ -1,0 +1,86 @@
+body{
+    margin: 0px;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: aliceblue;
+}
+
+.nesa{
+    color: gold;
+}
+
+.title-text{
+    background-color: white;
+    padding: 10px auto;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+
+}
+.card{
+    background-image: url("../img/london.jpg");
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+   
+}
+.container{
+    padding-left: 200px;
+    padding-right: 200px; 
+}
+.item{
+    font-size: 18px;
+}
+.mb{
+    padding-bottom: 20px;
+}
+
+.product{
+    width: 100%;
+    display: flex;
+    justify-items: center
+}
+
+.details{
+    margin-left: 10%;
+    width: 50%;
+}
+
+
+
+/* RESPONSIVE FOR PHONE DEVICE WITH MAX WIDTH OF 900px */
+
+@media only screen and (max-width:900px){
+    body{
+        background-color: aqua;
+    }
+    .container{
+        padding-left: 50px;
+        padding-right: 50px; 
+    }
+    .card{
+        background-image: url("../img/flot.jpg");
+        padding-top: 50px;
+        padding-bottom: 50px;
+        color: white;       
+    }
+    .item{
+        font-size: 24px;
+    }
+    .product{
+        width: 100%;
+        display: flex;
+        justify-items: center;
+        flex-direction: column-reverse;
+    }
+    .product-img{
+        width: 100%;
+    }
+    .details{
+        width: 100%;
+        margin: 0;
+    }
+
+}
